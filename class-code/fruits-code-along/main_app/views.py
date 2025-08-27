@@ -4,7 +4,8 @@ from django.shortcuts import render
 
 def welcome(request):
     
-    return render(request,'welcome.html')
+    students = ['ali','mohammad','malak','maryam']
+    return render(request,'welcome.html',{'name':'Jamal', 'students':students})
 
 # 1. create the view function
 # 2. add the view function to your urls.py
