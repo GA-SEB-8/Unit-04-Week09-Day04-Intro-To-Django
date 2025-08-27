@@ -9,6 +9,8 @@
 ### Afternoon
 
 - [Intro To Django][1]
+- [Intro To Django Lab][2]
+
 
 
 
@@ -17,5 +19,6 @@
 
 
 [1]: ./intro-to-django/
+[2]: ./intro-to-django-lab/
 
 ---
