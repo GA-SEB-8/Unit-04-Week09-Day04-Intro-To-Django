@@ -74,5 +74,5 @@
 3. give a class name of python or javascript for python or javascript specific technologies
 4. in a css file make the javascript technologies yellow and python blue
 5. BONUS: create the technologies as a dictionary in the view and pass it in the context
-6. BONUS 2: 
+6. BONUS 2: Pass a list of dictionaries to your context of all the technologies you have done with an additional key-value pair for `is_mastered`. display all the technologies in your about.html and if they are mastered print them normally but if they are not mastered put an * after it
 
