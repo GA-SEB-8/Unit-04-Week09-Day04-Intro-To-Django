@@ -27,6 +27,7 @@
 
 ## 3- Start the Django project & app
 
+1. Create a new project named `basics_project`
 2. Create a new app named `first_lab_app`.
 3. Explore the created files so you understand what each does.
 
@@ -36,6 +37,7 @@
 
 1. Open `settings.py`.
 2. Add the `first_lab_app` app to `INSTALLED_APPS`.
+3. create the `urls.py` for the app and add those urls to the project `urls.py`
 
 
 ---
@@ -45,6 +47,8 @@
 
 1. In `settings.py`, replace the default DB with a **PostgreSQL** configuration.
 2. Use your real credentials: DB name, user, password, host, port.
+3. the database name should be `basic-django`
+4. *HINT* Remember to create the database in PGadmin
 
 
 ---
@@ -70,4 +74,5 @@
 3. give a class name of python or javascript for python or javascript specific technologies
 4. in a css file make the javascript technologies yellow and python blue
 5. BONUS: create the technologies as a dictionary in the view and pass it in the context
+6. BONUS 2: 
 
